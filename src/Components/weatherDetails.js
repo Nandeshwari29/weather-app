@@ -8,7 +8,7 @@ export default class WeatherDetails extends Component{
         return (
        <div>
             <div className="description">
-                <span className="header">{this.props.name}, {this.props.country},  {dateNow.toDateString()}</span>
+                <span className="headerd">{this.props.name}, {this.props.country},  {dateNow.toDateString()}</span>
                 <br/>
                 <div className="details">
                     <div className="temp">

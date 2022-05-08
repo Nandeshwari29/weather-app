@@ -8,7 +8,7 @@
     text-align: justify;
     box-shadow: 10px 10px 10px 10px rgb(213, 209, 209);
 }
-.header{
+.headerd{
     font-size: 25px;
     margin-left: 0px;
     padding-left: 50px;
@@ -23,7 +23,7 @@
 }
 
 .detailings{
-    margin-left: 500px;
+    margin-left: 300px;
 }
 .comments{
     background-color: white;
