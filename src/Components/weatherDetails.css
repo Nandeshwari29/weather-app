@@ -1,0 +1,27 @@
+.description{
+    background-color: white;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    border-radius: 5px;
+    text-align: justify;
+    box-shadow: 10px 10px 10px 10px rgb(213, 209, 209);
+}
+.header{
+    font-size: 25px;
+    margin-left: 0px;
+    padding-left: 50px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+}
+.temp{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.detailings{
+    margin-left: 500px;
+}
