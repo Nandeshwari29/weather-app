@@ -1,9 +1,10 @@
 import React,{Component} from "react";
 import './weatherDetails.css';
+import Comments from "./comment";
 export default class WeatherDetails extends Component{
     render(){
-        let icon = "http://openweathermap.org/img/w/" + this.props.icon + ".png";
         let dateNow = new Date();
+        let icon = "http://openweathermap.org/img/w/" + this.props.weatherIcon + ".png"
         return (
        <div>
             <div className="description">
@@ -13,7 +14,7 @@ export default class WeatherDetails extends Component{
                     <div className="temp">
                         <h1> 
                             <span  style={{fontSize: '100px' }}> {this.props.temp}&deg;C
-                                <img src={icon}/>
+                            <img src={icon}/>
                             </span>
                         </h1>
                     </div>
@@ -37,6 +38,11 @@ export default class WeatherDetails extends Component{
                     </div>
                 </div>
             </div>
+            <div className="comments">
+              <Comments></Comments>
+                   
+          
+          </div>
             <br/>
             <br/>
        </div>

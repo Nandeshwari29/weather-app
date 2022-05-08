@@ -11,6 +11,7 @@
   color: white;
   font-size: 18px;
   padding: 10px;
+  cursor: pointer;
 }
 .loading{
   background-color: white;

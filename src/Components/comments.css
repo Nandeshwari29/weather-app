@@ -1,0 +1,27 @@
+.txtbox{
+    background-color: rgb(246, 236, 222);
+    font-size: 20px;
+    height: 60px;
+    width: 1100px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.submitComment{
+    background-color: rgb(54, 54, 230);
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    float: left;
+    cursor: pointer;
+    margin-left: 35px;
+}
+
+.length{
+    text-align: left;
+    display: block;
+    font-weight: bold;
+    margin-left: 35px;
+}

@@ -25,3 +25,13 @@
 .detailings{
     margin-left: 500px;
 }
+.comments{
+    background-color: white;
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 10px 10px 10px 10px rgb(213, 209, 209);
+}
